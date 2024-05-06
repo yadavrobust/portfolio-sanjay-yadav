@@ -9,7 +9,7 @@ html, body{
     font-family: 'Times New Roman', Times, serif;
 } */
 #background-img{
-    background-image: url("/images/backimg.png");
+    background-image: url("../images/backimg.png");
     background-size: 800px 430px;
     background-repeat: no-repeat;
     overflow: visible;
