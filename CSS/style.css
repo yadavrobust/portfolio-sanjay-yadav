@@ -1,0 +1,153 @@
+html, body{
+    width: auto!important;
+    overflow-x: hidden!important;
+}
+/* body{
+    background-image: url('/images/background-img.png');
+    background-repeat: no-repeat;
+    background-size: 600px 430px;
+    font-family: 'Times New Roman', Times, serif;
+} */
+#background-img{
+    background-image: url("/images/backimg.png");
+    background-size: 800px 430px;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+.coding-logo{
+    height: 60px;
+    max-width: 100%; 
+    cursor: default
+}
+.navbar-brand{ 
+    cursor: default!important;
+    font-size: 2rem!important;
+    color: gray!important;
+    text-decoration: none!important;     
+}
+.navheader{
+    padding-left:150px;
+}
+.nav-link{
+    padding-left:50px!important;
+    font-size: 1.2rem!important;
+    color: black!important;
+}
+.btn:hover{
+    color: green!important;
+    color: white!important;
+}
+.d-flex{
+    padding-right: 150px!important;
+}
+a:hover{
+    color: grey!important;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: green;
+}
+#sanjayimg{
+    margin-top: 15px;
+    max-width: 100%;
+    border-radius: 50% 50% 50% 50%;
+    border: solid black;
+}
+.typewrite{
+    color: gray;
+    text-decoration: none;
+}
+.typewrite:hover{
+    text-decoration: none!important;
+    cursor: default;
+}
+/* project-one */
+.project-one{
+    max-height: 100%;
+    max-width: 100%;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.h1-p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 62px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.h1-p:hover{
+    color: grey!important;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: green;
+}
+#project-one{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+#gmail-whatsapp{
+    color:black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+#gmail-whatsapp:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: green;
+}
+
+/* screen-size queary */
+@media only screen and (max-width: 844px) {
+    .nav-link{
+        padding-left:0px!important;
+        font-size: 1rem!important;
+        font-weight: bold!important;
+    }
+    .navheader{
+        padding-left:0px;
+    }
+    #sanjayimg{
+        margin-top: 15px;
+        height: 300px;
+        max-width: 100%;
+        border-radius: 50% 50% 50% 50%;
+        border: solid black;
+    }
+    #nav-button{
+        display:none!important;
+    }
+    /* body{
+        background-image: url('/images/background-img.png');
+        background-repeat: no-repeat;
+        background-size: 350px 380px;
+        background-position: fixed;
+        background-attachment: scroll;
+    } */
+    .project-btn-center{
+        text-align: center;
+    }
+    #hide-contact-mob{
+        display: none;
+    }
+}
+@media screen and (min-width:1080px) {
+    #mob-btn{
+        display: none;
+    }
+    .hr-tag{
+        width: 90%; 
+        margin-left:70px; 
+        color:black;
+    }
+    #show-contact-mobile{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 844px){
+    .h1-p{
+        margin-left: 0px;
+    }
+}
+  
