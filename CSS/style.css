@@ -130,6 +130,9 @@ h3{
     #hide-contact-mob{
         display: none;
     }
+    .svg-img-text-mob{
+        margin-left: -20px!important;
+    }
 }
 @media screen and (min-width:1080px) {
     #mob-btn{
