@@ -53,10 +53,11 @@ a:hover{
     border: solid black;
 }
 .typewrite{
-    color: gray;
+    color: black;
     text-decoration: none;
 }
 .typewrite:hover{
+    color:black!important;
     text-decoration: none!important;
     cursor: default;
 }
