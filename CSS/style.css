@@ -34,14 +34,14 @@ html, body{
     color: black!important;
 }
 .btn:hover{
-    color: green!important;
+    color: blue!important;
     color: white!important;
 }
 .d-flex{
     padding-right: 150px!important;
 }
 a:hover{
-    color: grey!important;
+    color: blue!important;
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-color: green;
